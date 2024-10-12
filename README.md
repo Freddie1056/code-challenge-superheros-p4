@@ -103,16 +103,16 @@ To initialize and apply database migrations, run the following commands:
 
     ```bash
 
- flask db init
- Create a migration script:
+     flask db init
+    Create a migration script:
 
    ```bash
-flask db migrate -m "Initial migration."
-Apply the migration:
+   flask db migrate -m "Initial migration."
+ 
 
    ```bash
 
-flask db upgrade
+    flask db upgrade
 
 ## Testing
 To run tests for this project, ensure you have all necessary packages installed, then execute the following command:
