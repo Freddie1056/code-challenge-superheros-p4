@@ -122,9 +122,9 @@ To run tests for this project, ensure you have all necessary packages installed,
 Make sure you have pytest listed in your requirements.txt. You can add it by running:
 
   ```bash
-pip install pytest
-Contributing
-Contributions are welcome! Please follow these steps:
+  pip install pytest
+  Contributing
+  Contributions are welcome! Please follow these steps:
 
 ## Fork the repository.
 Create a new branch (git checkout -b feature/YourFeature).
