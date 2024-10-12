@@ -48,16 +48,13 @@ Welcome to the **Superheroes API**! This is a RESTful API that allows you to man
    cd Superheroes-API
 
 2. Create and activate a virtual environment:
- 
-   ```bash
- For Unix/Linux:
 
     ```bash
- python -m venv venv
- source venv/bin/activate
- For Windows:
- python -m venv venv
- venv\Scripts\activate
+    python -m venv venv
+    source venv/bin/activate
+    For Windows:
+    python -m venv venv
+    venv\Scripts\activate
 
 3. Install the required packages:
 
