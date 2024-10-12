@@ -121,7 +121,7 @@ To run tests for this project, ensure you have all necessary packages installed,
 ## pytest
 Make sure you have pytest listed in your requirements.txt. You can add it by running:
 
-  ```bash
+     ``bash
   pip install pytest
   Contributing
   Contributions are welcome! Please follow these steps:
