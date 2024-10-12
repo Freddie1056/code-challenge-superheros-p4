@@ -48,8 +48,11 @@ Welcome to the **Superheroes API**! This is a RESTful API that allows you to man
    cd Superheroes-API
 
 2. Create and activate a virtual environment:
-
+ 
+   ```bash
  For Unix/Linux:
+
+    ```bash
  python -m venv venv
  source venv/bin/activate
  For Windows:
@@ -101,14 +104,16 @@ To initialize and apply database migrations, run the following commands:
 
 7. Initialize migration environment:
 
+    ```bash
 
-flask db init
-Create a migration script:
+ flask db init
+ Create a migration script:
 
-
+   ```bash
 flask db migrate -m "Initial migration."
 Apply the migration:
 
+   ```bash
 
 flask db upgrade
 
@@ -119,7 +124,7 @@ To run tests for this project, ensure you have all necessary packages installed,
 ## pytest
 Make sure you have pytest listed in your requirements.txt. You can add it by running:
 
-
+  ```bash
 pip install pytest
 Contributing
 Contributions are welcome! Please follow these steps:
